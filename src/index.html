@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- max width 856 -->
+    <div class="container w-full max-w-full font-heebo">
+        <div class="wrapper">
+            <header class="w-full mt-[27px] max-w-[1152px] mx-auto">
+                <label for="nav_mobile" class="justify-end px-[14px] hidden mbi:flex">
+                    <img src="./assets/icons/ti-bars.svg" alt="">
+                </label>
+                <nav class="px-[150px] mbi:hidden ">
+                    <ul class="flex justify-center">
+                        <li class="text-xl font-medium pr-[33px] "><a href="#">About me</a> </li>
+                        <li class="text-xl font-medium pr-[33px] "><a href="#">Blogs</a> </li>
+                        <li class="text-xl font-medium pr-[33px] "><a href="#">Contact</a> </li>
+                    </ul>
+                </nav>
+                <input type="checkbox" id="nav_mobile" hidden>
+                <nav class="fixed top-0 bottom-0 right-0 left-0 bg-slate-400 w-[320px] hidden navbar_mobile">
+                    <ul class="mt-7 ml-5">
+                        <li class="text-xl font-medium mb-3">About me</li>
+                        <li class="text-xl font-medium mb-3">Blogs</li>
+                        <li class="text-xl font-medium mb-3">Contact</li>
+                    </ul>
+                </nav>
+
+                <div class="overlay hidden mbi:fixed mbi:top-0 mbi:left-0 mbi:right-0 mbi:bottom-0">
+                </div>
+            </header>
+
+            <!-- content -->
+            <div class="content mt-[120px]">
+                <div
+                    class="flex justify-between items-center max-w-[1152px] mx-auto px-[150px] mbi:px-[14px] mbi:flex-wrap mbi:flex-col-reverse">
+                    <div class="flex-1 mbi:mt-[34px]">
+                        <h1 class="text-[44px] text-[#21243D] font-bold mbi:text-[32px] mbi:text-center">Hi, I am
+                            Nhan,<br>Wsebsite
+                            Programmer</h1>
+                        <p class="max-w-[515px] text-base font-light text-[#21243D] mt-[40px] mbi:text-center">I am a
+                            programmer who
+                            loves
+                            art and
+                            animals.
+                            Therefore, I have good hearing ability. When I talk to
+                            a foreigner I can easily understand what they are trying to say.</p>
+                        <button
+                            class="py-[10px] px-[20px] bg-primary text-white mt-[47px] mbi:flex mbi:justify-center mbi:w-full">Download
+                            Resume</button>
+                    </div>
+                    <div class="w-[243px] h-[243px] rounded-sm ">
+                        <img src="./assets/images/my_ing.JPEG" class="object-cover w-full h-full rounded-full"
+                            alt="my_img">
+                    </div>
+                </div>
+
+                <div class="w-full bg-[#EDF7FA] mt-[71px]">
+                    <div class="max-w-[1152px] mx-auto px-[150px] mbi:px-0">
+                        <div class="flex justify-between items-center pt-[27px] pb-[22px] mbi:justify-center">
+                            <h4 class="text-[#21243D] text-[22px]">Recent posts</h4>
+                            <a href="#" class="mbi:hidden">View all</a>
+                        </div>
+                        <div class="grid grid-cols-2 gap-5 pb-[32px] mbi:grid-cols-1">
+                            <div class="min-h-[295px] py-[24px] px-[22px] rounded shadow-md bg-white mbi:mx-[10px]">
+                                <h3 class="text-[26px] font-bold text-[#21243D] mbi:text-[22px]">
+                                    Create a promotional website for the band
+                                </h3>
+                                <div class="flex mt-[22px]">
+                                    <div class="border-r border-black mr-[26px] pr-[24px] mbi:text-base">8 Feb 2023
+                                    </div>
+                                    <div class="mbi:text-base">Design, Backend </div>
+                                </div>
+                                <p class="mt-[22px] text-base text-[#21243D]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                            <div class="min-h-[295px] py-[24px] px-[22px] rounded shadow-md bg-white mbi:mx-[10px]">
+                                <h3 class="text-[26px] font-bold text-[#21243D] mbi:text-[22px]">Create a website for a
+                                    clothing shop
+                                </h3>
+                                <div class="flex mt-[22px]">
+                                    <div class="border-r border-black mr-[26px] pr-[24px] mbi:text-base">11 Feb 2023
+                                    </div>
+                                    <div class="mbi:text-base">Frontend, Design</div>
+                                </div>
+                                <p class="mt-[22px] text-base text-[#21243D]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="max-w-[1152px] mx-auto px-[150px] mbi:px-[10px]">
+                    <h4 class="text-[#21243D] text-[22px] mt-[30px] mbi:text-center">Featured works</h4>
+                    <div class="mt-[30px] ">
+                        <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 py-[24px] border-b border-[#E0E0E0]">
+                            <div class="w-full max-h-[180px]">
+                                <img src="./assets/images/img_1.png" class="object-cover w-full h-full" alt="">
+                            </div>
+                            <div class=" lg:col-span-2">
+                                <h4 class="text-[#21243D] text-[30px] font-bold">Dashboarh website</h4>
+                                <div class="flex items-center">
+                                    <div class="py-1 px-2 bg-[#142850] font-bold text-white rounded-2xl mr-[26px]">2024
+                                    </div>
+                                    <span class="text-[#8695A4] ">Website</span>
+                                </div>
+                                <p class="text-base text-[#21243D] mt-[17px]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 py-[24px] border-b border-[#E0E0E0]">
+                            <div class="w-full max-h-[180px]">
+                                <img src="./assets/images/Screenshot 2024-10-11 164833.png"
+                                    class="object-cover w-full h-full" alt="">
+                            </div>
+                            <div class=" lg:col-span-2">
+                                <h4 class="text-[#21243D] text-[30px] font-bold">Shoppe website</h4>
+                                <div class="flex items-center">
+                                    <div class="py-1 px-2 bg-[#142850] font-bold text-white rounded-2xl mr-[26px]">2024
+                                    </div>
+                                    <span class="text-[#8695A4] ">Website</span>
+                                </div>
+                                <p class="text-base text-[#21243D] mt-[17px]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 py-[24px] border-b border-[#E0E0E0]">
+                            <div class="w-full max-h-[180px]">
+                                <img src="./assets/images/Screenshot 2024-10-11 164953.png"
+                                    class="object-cover w-full h-full" alt="">
+                            </div>
+                            <div class=" lg:col-span-2">
+                                <h4 class="text-[#21243D] text-[30px] font-bold">Band website</h4>
+                                <div class="flex items-center">
+                                    <div class="py-1 px-2 bg-[#142850] font-bold text-white rounded-2xl mr-[26px]">2024
+                                    </div>
+                                    <span class="text-[#8695A4] ">Website</span>
+                                </div>
+                                <p class="text-base text-[#21243D] mt-[17px]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="mt-[83px] w-full min-h-[182px] flex flex-col items-center justify-center">
+                <div class="flex justify-center">
+                    <a href="#"><img src="./assets/icons/ti-fb.svg" class="w-[30px] h-[30px] mr-[35px]"
+                            alt="icon-social"></a>
+                    <a href="#"><img src="./assets/icons/ti-ig.svg" class="w-[30px] h-[30px] mr-[35px]"
+                            alt="icon-social"></a>
+                    <a href="#"><img src="./assets/icons/ti-tw.svg" class="w-[30px] h-[30px] mr-[35px]"
+                            alt="icon-social"></a>
+                    <a href="#"><img src="./assets/icons/ti-in.svg" class="w-[30px] h-[30px]" alt="icon-social"></a>
+                </div>
+                <p class="text-sm text-[#21243D] text-center mt-[26px]">Copyright ©2020 All rights reserved </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
